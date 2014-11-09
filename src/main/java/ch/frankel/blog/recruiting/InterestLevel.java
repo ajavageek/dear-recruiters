@@ -20,7 +20,6 @@ package ch.frankel.blog.recruiting;
  * #L%
  */
 
-
 public enum InterestLevel {
     NONE, NOT_ENOUGH, SPARKED, TOTAL;
 

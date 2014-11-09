@@ -20,7 +20,6 @@ package ch.frankel.blog.recruiting;
  * #L%
  */
 
-
 public enum TrainingPolicy {
     WHAT_TRAINING, IF_REQUIRED, PROACTIVE, NOT_ONLY_SOFTWARE;
 }

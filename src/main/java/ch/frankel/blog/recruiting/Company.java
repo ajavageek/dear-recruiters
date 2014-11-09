@@ -20,7 +20,6 @@ package ch.frankel.blog.recruiting;
  * #L%
  */
 
-
 import static ch.frankel.blog.recruiting.Company.CompanyType.SOFTWARE_PRODUCT;
 import static ch.frankel.blog.recruiting.CompensationPolicy.NOT_ADEQUATE;
 import static ch.frankel.blog.recruiting.ConferencePolicy.WHAT_IS_CONFERENCE;
