@@ -78,6 +78,6 @@ public class Company {
     }
 
     public enum CompanyType {
-        UNRELATED_TO_SOFTWARE, CONSULTING, SOFTWARE_PRODUCT;
+        UNRELATED_TO_SOFTWARE, CONSULTING, SOFTWARE_PRODUCT
     }
 }

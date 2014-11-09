@@ -21,5 +21,5 @@ package ch.frankel.blog.recruiting;
  */
 
 public enum TrainingPolicy {
-    WHAT_TRAINING, IF_REQUIRED, PROACTIVE, NOT_ONLY_SOFTWARE;
+    WHAT_TRAINING, IF_REQUIRED, PROACTIVE, NOT_ONLY_SOFTWARE
 }
