@@ -20,7 +20,6 @@ package ch.frankel.blog.recruiting;
  * #L%
  */
 
-
 import static ch.frankel.blog.recruiting.ConferencePolicy.ACTIVELY_SENDING;
 import static ch.frankel.blog.recruiting.TimePolicy.TWENTY_PERCENT_PET_PROJECT;
 import static ch.frankel.blog.recruiting.TrainingPolicy.NOT_ONLY_SOFTWARE;

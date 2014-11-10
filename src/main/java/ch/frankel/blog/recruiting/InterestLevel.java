@@ -20,18 +20,25 @@ package ch.frankel.blog.recruiting;
  * #L%
  */
 
-
 public enum InterestLevel {
-    NONE, NOT_ENOUGH, SPARKED, TOTAL;
+	NONE, NOT_ENOUGH, SPARKED, TOTAL;
 
-    public InterestLevel increase() {
-        InterestLevel[] interestLevels = InterestLevel.values();
-        for (int i = 0; i < interestLevels.length - 1; i++) {
-            InterestLevel currentLevel = interestLevels[i];
-            if (currentLevel == this) {
-                return interestLevels[i + 1];
-            }
-        }
-        return this;
-    }
+	public InterestLevel decrease() {
+		InterestLevel[] interestLevels = InterestLevel.values();
+		if (this.ordinal() > 0) {
+			return interestLevels[this.ordinal() - 1];
+		}
+
+		return this;
+	}
+
+	public InterestLevel increase() {
+		InterestLevel[] interestLevels = InterestLevel.values();
+		int nextLevel = this.ordinal() + 1;
+		if (nextLevel < interestLevels.length) {
+			return interestLevels[nextLevel];
+		}
+
+		return this;
+	}
 }
